@@ -10,7 +10,7 @@
     <EditText
         android:id="@+id/input_nombre"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:ems="10"
@@ -20,7 +20,7 @@
     <EditText
         android:id="@+id/input_apellido"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_below="@id/input_nombre"
         android:ems="10"
         android:hint="Apellidos"
@@ -29,7 +29,7 @@
     <TextView
         android:id="@+id/texto_estado_civil"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_below="@id/input_apellido"
         android:layout_alignParentLeft="true"
         android:layout_marginRight="48dp"
@@ -41,7 +41,7 @@
     <Spinner
         android:id="@+id/spinner_estado_civil"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_below="@id/texto_estado_civil"
         android:layout_toLeftOf="@+id/spinner_cargo"
         android:entries="@array/lista_estado_civil" />
@@ -61,7 +61,7 @@
     <Spinner
         android:id="@+id/spinner_cargo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_below="@id/texto_cargo"
         android:layout_alignStart="@id/texto_cargo"
         android:layout_alignLeft="@id/texto_cargo"
