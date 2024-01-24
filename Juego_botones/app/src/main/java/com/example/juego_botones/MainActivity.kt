@@ -11,6 +11,11 @@ class MainActivity : AppCompatActivity() {
 
     private val numBotones = 10
     private lateinit var llBotonera: LinearLayout
+    val lp = LinearLayout.LayoutParams(
+        LinearLayout.LayoutParams.MATCH_PARENT,
+        resources.getDimensionPixelSize(R.dimen.button_height)
+    )
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
