@@ -2,8 +2,10 @@ package com.example.juego_botones
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,7 +29,18 @@ class MainActivity : AppCompatActivity() {
             button.layoutParams = lp
             //Asignamos Texto al botón
             button.text = "Botón " + String.format("%02d", i)
+            //Asignamos el Listener
+            button.setOnClickListener(buttonClickListener(i))
+            //Añadimos el botón a la botonera
             llBotonera.addView(button)
         }
+    }
+    private fun buttonClickListener(index: Int): View.OnClickListener {
+        return View.OnClickListener {
+            Toast.makeText(this@MainActivity,
+                "Botón " + String.format("%02d", index) + " pulsado.",
+                Toast.LENGTH_SHORT).show()
+        }
+
     }
 }
