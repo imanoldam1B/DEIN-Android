@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">VentanasDeImanol</string>
+    <string name="modulo">DEIN</string>
+    <string name="nombre">Escribe tu nombre</string>
+    <string name="aceptar">Botón Aceptar</string>
+    <string name="alumno">App creada por David</string>
 </resources>
