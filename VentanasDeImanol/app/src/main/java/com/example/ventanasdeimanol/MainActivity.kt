@@ -10,7 +10,7 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() {
 
     private lateinit var txtNombre: EditText
-    private lateinit var btnAceptar: EditText
+    private lateinit var btnAceptar: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
