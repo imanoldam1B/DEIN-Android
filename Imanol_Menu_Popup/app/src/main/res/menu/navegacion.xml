@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item"
+        android:title="Menú"
+        android:icon="@drawable/menu" />
+    <item
+        android:id="@+id/calendar_item"
+        android:title="Calendario"
+        android:icon="@drawable/calendario" />
+    <item
+        android:id="@+id/goals_item"
+        android:title="Objetivos"
+        android:icon="@drawable/Objetivos" />
+    <item
+        android:id="@+id/settings_item"
+        android:title="Ajustes"
+        android:icon="@drawable/baseline_video_settings_24" />
+</menu>
