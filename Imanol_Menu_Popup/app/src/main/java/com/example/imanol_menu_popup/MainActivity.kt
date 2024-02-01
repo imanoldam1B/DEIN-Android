@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
+import android.widget.PopupMenu
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showMoreActionsMenu(button: View) {
         val popupMenu = PopupMenu(this, button)
-        menuInflater.inflate(R.menu.main_menu, popupMenu.menu)
+        menuInflater.inflate(R.menu.popup_menu, popupMenu.menu)
         popupMenu.show()
     }
 }
