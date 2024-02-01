@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_favorites"
+        android:title="@string/add_favorites" />
+    <item
+        android:id="@+id/share"
+        android:title="@string/share" />
+    <item
+        android:id="@+id/move"
+        android:title="@string/move" />
+</menu>

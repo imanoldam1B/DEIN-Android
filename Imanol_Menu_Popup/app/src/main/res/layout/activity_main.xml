@@ -23,6 +23,17 @@
             android:textSize="20sp"
             android:textStyle="bold"/>
 
+        <ImageButton
+            android:id="@+id/more_actions_button"
+            android:layout_width="24dp"
+            android:layout_height ="24dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:contentDescription ="@string/more_actions_desc"
+            android:padding="0dp"
+            android:src="@drawable/ic_more_actions"
+            app:layout_constraintBottom_toBottomOf ="parent"
+            app:layout_constraintEnd_toEndOf ="parent"
+            app:layout_constraintTop_toTopOf ="parent" />
 
     </androidx.appcompat.widget.Toolbar>
 </LinearLayout>
