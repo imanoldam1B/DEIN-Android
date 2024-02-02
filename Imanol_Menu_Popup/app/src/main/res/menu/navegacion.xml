@@ -1,18 +1,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/menu_item"
+        android:id="@+id/logo_menu"
         android:title="Menú"
-        android:icon="@drawable/menu" />
+        android:icon="@drawable/baseline_home_24" />
     <item
-        android:id="@+id/calendar_item"
+        android:id="@+id/logo_calendario"
         android:title="Calendario"
-        android:icon="@drawable/calendario" />
+        android:icon="@drawable/baseline_calendar_month_24" />
     <item
-        android:id="@+id/goals_item"
+        android:id="@+id/logo_objetivos"
         android:title="Objetivos"
-        android:icon="@drawable/Objetivos" />
+        android:icon="@drawable/baseline_electric_bolt_24" />
     <item
-        android:id="@+id/settings_item"
+        android:id="@+id/logo_ajustes"
         android:title="Ajustes"
         android:icon="@drawable/baseline_video_settings_24" />
 </menu>

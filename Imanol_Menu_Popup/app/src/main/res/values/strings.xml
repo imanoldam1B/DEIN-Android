@@ -2,7 +2,19 @@
     <string name="app_name">Imanol_Menu_Popup</string>
     <string name="nombre_app">Daily progress</string>
     <string name="add_favorites">Añadir favoritos</string>
-    <string name="share">Compartir</string>
-    <string name="move">Mover</string>
     <string name="more_actions_desc">Mas acciones\n</string>
+    <string name="batido_proteinas">Batido de proteínas ingerido</string>
+    <string name="trabajo_muscular">Gym 60min Trabajo Muscular</string>
+    <string name="trabajo_fuerza">Gym 20min fuerza</string>
+    <string name="tarea3">PSEP tareas hilos</string>
+    <string name="tarea2">Inicio proyecto FINAL</string>
+    <string name="tarea1">Tarea Desarrollo de Interfaces</string>
+    <string name="objetivos">Estos son los objetivos del dia de hoy:</string>
+    <string name="hoy">Lunes, 1 de Febrero de 2024</string>
+    <string name="estudios">ESTUDIOS</string>
+    <string name="motivacion">No esperes para cumplir con tus objetivos del día, ¡Ánimo!</string>
+    <string name="deporte">DEPORTE</string>
+    <string name="perfil">Perfil</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="log_out">Log Out</string>
 </resources>
